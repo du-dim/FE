@@ -42,7 +42,7 @@ export default function CSVFileImport({ url, title }: CSVFileImportProps) {
         body: file,
       });
       console.log("Result: ", result);
-      setFile(file);
+      setFile(undefined);
     }
   };
   return (
