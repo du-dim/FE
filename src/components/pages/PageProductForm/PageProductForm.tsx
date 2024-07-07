@@ -98,6 +98,7 @@ export default function PageProductForm() {
                 </Grid>
                 <Grid item container xs={12} justifyContent="space-between">
                   <Button
+                    sx={{ color: "#38CD8E" }}
                     color="primary"
                     onClick={() => navigate("/admin/products")}
                   >
@@ -107,6 +108,7 @@ export default function PageProductForm() {
                     type="submit"
                     variant="contained"
                     color="primary"
+                    sx={{ backgroundColor: "#38CD8E" }}
                     disabled={!dirty || isSubmitting}
                   >
                     Save Product

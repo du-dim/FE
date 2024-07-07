@@ -45,6 +45,7 @@ export default function ProductsTable() {
               <TableCell align="right">
                 <Button
                   size="small"
+                  sx={{ color: "#38CD8E" }}
                   color="primary"
                   component={Link}
                   to={`/admin/product-form/${product.id}`}

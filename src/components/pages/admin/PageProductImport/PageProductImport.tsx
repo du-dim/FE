@@ -17,7 +17,7 @@ export default function PageProductImport() {
           size="small"
           color="primary"
           variant="contained"
-          sx={{ alignSelf: "end" }}
+          sx={{ alignSelf: "end", backgroundColor: "#38CD8E" }}
           component={Link}
           to={"/admin/product-form"}
         >
