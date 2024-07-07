@@ -26,5 +26,4 @@ Runs linting and formatting for all files in `src` folder.
 
 ## Deployment Links
 
-- S3 Website URL: https://store-rs-app.s3.eu-west-1.amazonaws.com/
-- CloudFront URL: https://d2ipoy2wlzzqpz.cloudfront.net
+- CloudFront URL: https://dl8np0mbf8rr.cloudfront.net
