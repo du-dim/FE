@@ -7,8 +7,14 @@ import PageProductImport from "~/components/pages/admin/PageProductImport/PagePr
 import PageCart from "~/components/pages/PageCart/PageCart";
 import PageProducts from "~/components/pages/PageProducts/PageProducts";
 import { Typography } from "@mui/material";
+import { useEffect } from "react";
 
 function App() {
+  useEffect(() => {
+    // Сохранение токена авторизации в localStorage
+    const token = btoa("dudim:TEST_PASSWORD"); // замените 'DUDIM' на ваш логин
+    localStorage.setItem("authorization_token", token);
+  }, []);
   return (
     <MainLayout>
       <Routes>

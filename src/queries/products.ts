@@ -1,8 +1,9 @@
-import axios, { AxiosError } from "axios";
+import axios from "~/api/axiosConfig";
 import API_PATHS from "~/constants/apiPaths";
 import { AvailableProduct } from "~/models/Product";
 import { useQuery, useQueryClient, useMutation } from "react-query";
 import React from "react";
+import { AxiosError } from "axios";
 
 export function useAvailableProducts() {
   return useQuery<AvailableProduct[], AxiosError>(
